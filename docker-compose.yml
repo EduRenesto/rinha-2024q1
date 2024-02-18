@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  db:
+    image: postgresql:latest
+    environment:
+      POSTGRES_PASSWORD: a1b1c1d1
+    ports:
+      - 5432:5432
